@@ -1,0 +1,98 @@
+#EXTM3U
+# Lista: Música Latina TV — Chile, Perú, Colombia, México y Argentina
+# Generada el 17-07-2026 a partir de señales públicas indexadas por IPTV-org
+# Solo canales de video; se excluyeron radios y señales identificadas como FM/AM.
+#EXTINF:-1 tvg-id="13Festival.cl@SD" tvg-country="CL" group-title="Música Latina - Chile",13 Festival
+https://origin.dpsgo.com/ssai/event/Nftd0fM2SXasfDlRphvUsg/master.m3u8
+#EXTINF:-1 tvg-id="ApocalipsisTVD.cl@SD" tvg-country="CL" group-title="Música Latina - Chile",Apocalipsis TVD
+https://us.streaminghd.cl/apocalipsistvd/video.m3u8
+#EXTINF:-1 tvg-id="GenialTV.cl@SD" tvg-country="CL" group-title="Música Latina - Chile",Genial TV
+https://v1.tustreaming.cl/genialtv/index.m3u8
+#EXTINF:-1 tvg-id="LaGranjaTV.cl@SD" tvg-country="CL" group-title="Música Latina - Chile",La Granja TV
+https://oracle.streaminghd.cl/8126/8126/playlist.m3u8
+#EXTINF:-1 tvg-id="OrbitaChileTV.cl@HD" tvg-country="CL" group-title="Música Latina - Chile",Orbita Chile TV
+https://orbitachiletv.org/hls/0/stream.m3u8
+#EXTINF:-1 tvg-id="PRIDEtvLATAM.cl@HD" tvg-country="CL" group-title="Música Latina - Chile",PRIDEtv LATAM
+https://backend.energeek.cl/webtv/pridetvweb/index.m3u8?token=ZZDemoIPTVGH
+#EXTINF:-1 tvg-id="Portalfoxmix.cl@SD" tvg-country="CL" group-title="Música Latina - Chile",Portalfoxmix
+https://panel.tvstream.cl:1936/8040/8040/playlist.m3u8
+#EXTINF:-1 tvg-id="RetroPlus2.cl@SD" tvg-country="CL" group-title="Música Latina - Chile",Retro Plus 2
+#EXTVLCOPT:http-referrer=https://retroplustv.com/
+https://tls-cl.cdnz.cl/retroplustvuno/live/playlist.m3u8
+#EXTINF:-1 tvg-id="RetromusicaTelevision.cl@SD" tvg-country="CL" group-title="Música Latina - Chile",Retromusica Television
+https://vdochile.com:3864/stream/play.m3u8
+#EXTINF:-1 tvg-id="RewindTV.cl@SD" tvg-country="CL" group-title="Música Latina - Chile",Rewind TV
+https://tls-cl.cdnz.cl/rewindtv/live/playlist.m3u8
+#EXTINF:-1 tvg-id="SaborTV.cl@SD" tvg-country="CL" group-title="Música Latina - Chile",Sabor TV
+https://v1.tustreaming.cl/sabortv/index.m3u8
+#EXTINF:-1 tvg-id="SensacionCosta.cl@SD" tvg-country="CL" group-title="Música Latina - Chile",Sensacion Costa
+https://tvcosta.gleeze.com/memfs/4d48db09-0b1e-4803-8da7-22be388bdd7e.m3u8
+#EXTINF:-1 tvg-id="SoloBailalo.cl@SD" tvg-country="CL" group-title="Música Latina - Chile",Solo Bailalo
+https://5ff3d9babae13.streamlock.net/8000/8000/playlist.m3u8
+#EXTINF:-1 tvg-id="UMAGTV2.cl@SD" tvg-country="CL" group-title="Música Latina - Chile",UMAGTV2
+https://tls-cl.cdnz.cl/umag2/live/playlist.m3u8
+#EXTINF:-1 tvg-id="VClassicTV.cl@SD" tvg-country="CL" group-title="Música Latina - Chile",V Classic TV
+https://5eaccbab48461.streamlock.net:1936/8112/8112/playlist.m3u8
+#EXTINF:-1 tvg-id="AndinaRTV.pe@SD" tvg-country="PE" group-title="Música Latina - Perú",Andina RTV
+https://live-evg8.tv360.bitel.com.pe/bitel/andinatvSRT/playlist.m3u8
+#EXTINF:-1 tvg-id="EstelarTV.pe@SD" tvg-country="PE" group-title="Música Latina - Perú",Estelar TV
+https://srt.tvdatta.com/tvestelar/index.m3u8
+#EXTINF:-1 tvg-id="FolkloreTV.pe@SD" tvg-country="PE" group-title="Música Latina - Perú",Folklore TV
+https://play.folkloretv.pe/StreamSD/index.m3u8
+#EXTINF:-1 tvg-id="GalacticaTV.pe@SD" tvg-country="PE" group-title="Música Latina - Perú",Galactica TV
+https://stream.neux.site/memfs/e3f59eec-6b93-45e1-a2ab-c82381c2a9ec.m3u8
+#EXTINF:-1 tvg-id="Karibena.pe@SD" tvg-country="PE" group-title="Música Latina - Perú",Karibena
+http://187.102.210.46/KARIBENA/index.m3u8
+#EXTINF:-1 tvg-id="MielTV.pe@SD" tvg-country="PE" group-title="Música Latina - Perú",Miel TV
+https://live-evg5.tv360.bitel.com.pe/bitel/mieltvSRT/playlist.m3u8
+#EXTINF:-1 tvg-id="PrattelTV.pe@SD" tvg-country="PE" group-title="Música Latina - Perú",Prattel TV
+#EXTVLCOPT:http-referrer=https://www.pratteltv.lat
+https://183.bozztv.com/ssh101/ssh101/pratteltvperu/playlist.m3u8
+#EXTINF:-1 tvg-id="RumbaMixTV.pe@SD" tvg-country="PE" group-title="Música Latina - Perú",RumbaMix TV
+https://live-evg5.tv360.bitel.com.pe/bitel/mixtvSRT/playlist.m3u8
+#EXTINF:-1 tvg-id="TVPeruanisima.pe@SD" tvg-country="PE" group-title="Música Latina - Perú",TV Peruanisima
+https://k20.usastreams.com:8081/tvperuanisima/index.m3u8
+#EXTINF:-1 tvg-id="TVUNO.pe@SD" tvg-country="PE" group-title="Música Latina - Perú",TVUNO
+https://streamtv.onliv3.online:1936/karibtv/karibtv/playlist.m3u8
+#EXTINF:-1 tvg-id="FiestaTV.co@SD" tvg-country="CO" group-title="Música Latina - Colombia",Fiesta TV
+https://panelvideo1.intermediahost.co:3286/live/ruzfpkqklive.m3u8
+#EXTINF:-1 tvg-id="LaHermandadSalsera.co@SD" tvg-country="CO" group-title="Música Latina - Colombia",La Hermandad Salsera
+https://streamlov.alsolnet.com/hermandadsalsera/live/playlist.m3u8
+#EXTINF:-1 tvg-id="LaKalle.co@SD" tvg-country="CO" group-title="Música Latina - Colombia",La Kalle
+https://mdstrm.com/live-stream-playlist/58d191f07290fbb058025843.m3u8
+#EXTINF:-1 tvg-id="OndambientalTV.co@SD" tvg-country="CO" group-title="Música Latina - Colombia",Ondambiental TV
+https://stmv4.voxtvhd.com.br/ondastereo/ondastereo/playlist.m3u8
+#EXTINF:-1 tvg-id="ParrandaVallenata.co@SD" tvg-country="CO" group-title="Música Latina - Colombia",Parranda Vallenata
+https://backupmaxmedia.hvmultiplay.com/hls/stream3/parrandavallenata.m3u8
+#EXTINF:-1 tvg-id="Reyali.co@SD" tvg-country="CO" group-title="Música Latina - Colombia",Reyali
+https://eu1.servers10.com:8081/8090/index.m3u8
+#EXTINF:-1 tvg-id="RumbaTV.co@SD" tvg-country="CO" group-title="Música Latina - Colombia",Rumba TV
+http://45.162.193.35/RUMBATV/index.m3u8
+#EXTINF:-1 tvg-id="SalsaGordaTelevision.co@SD" tvg-country="CO" group-title="Música Latina - Colombia",Salsa Gorda Television
+https://live20.bozztv.com/akamaissh101/ssh101/qMUAZEy/playlist.m3u8
+#EXTINF:-1 tvg-id="SupermusicaTV.co@SD" tvg-country="CO" group-title="Música Latina - Colombia",Supermusica TV
+https://backupmaxmedia.hvmultiplay.com/hls/stream4/supermusica.m3u8
+#EXTINF:-1 tvg-id="ConectaTV.mx@SD" tvg-country="MX" group-title="Música Latina - México",Conecta TV
+https://stream8.mexiserver.com:19360/conectatvx/conectatvx.m3u8
+#EXTINF:-1 tvg-id="ExaTV.mx@SD" tvg-country="MX" group-title="Música Latina - México",Exa TV
+http://45.189.62.33:8002/play/a0lr/index.m3u8
+#EXTINF:-1 tvg-id="LaMejorTV.mx@SD" tvg-country="MX" group-title="Música Latina - México",La Mejor TV
+http://45.189.62.33:8002/play/a0ls/index.m3u8
+#EXTINF:-1 tvg-id="LoboTV.mx@SD" tvg-country="MX" group-title="Música Latina - México",Lobo TV
+https://5ca3e84a76d30.streamlock.net/tvlobo/videotvlobo/playlist.m3u8
+#EXTINF:-1 tvg-id="TelehitMusica.mx@SD" tvg-country="MX" group-title="Música Latina - México",Telehit Musica
+http://190.61.55.34:2401/play/a06t/index.m3u8
+#EXTINF:-1 tvg-id="VisionTelevision.mx@SD" tvg-country="MX" group-title="Música Latina - México",Vision Television
+https://cloudvideo.servers10.com:8081/8016/index.m3u8
+#EXTINF:-1 tvg-id="CMElCanaldelaMusica.ar@SD" tvg-country="AR" group-title="Música Latina - Argentina",CM El Canal de la Musica
+http://200.91.32.158:8080/cm/index.m3u8
+#EXTINF:-1 tvg-id="ChamameTV.ar@SD" tvg-country="AR" group-title="Música Latina - Argentina",Chamame TV
+https://srv4.zcast.com.br/chamametv/chamametv/playlist.m3u8
+#EXTINF:-1 tvg-id="CumbiaMix.ar@HD" tvg-country="AR" group-title="Música Latina - Argentina",Cumbia Mix
+https://cloud.tvomix.com/CUMBIAMIX/index.m3u8
+#EXTINF:-1 tvg-id="MusicTop.ar@SD" tvg-country="AR" group-title="Música Latina - Argentina",MusicTop
+https://stream-gtlc.telecentro.net.ar/hls/musictophls/0/playlist.m3u8
+#EXTINF:-1 tvg-id="QuieroMusicaenmiIdioma.ar@SD" tvg-country="AR" group-title="Música Latina - Argentina",Quiero Musica en mi Idioma
+http://177.234.249.178:8888/MTV/index.m3u8
+#EXTINF:-1 tvg-id="XLevelMedia.ar@SD" tvg-country="AR" group-title="Música Latina - Argentina",X Level Media
+https://tuvideoonline.com.ar:3332/live/xlevelmedialive.m3u8

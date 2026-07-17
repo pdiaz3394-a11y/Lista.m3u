@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Radios de la Región del Maule</title>
+    <style>
+        :root {
+            --primary: #06b6d4;
+            --bg: #090d16;
+            --card-bg: rgba(30, 41, 59, 0.7);
+            --text: #f8fafc;
+            --text-muted: #64748b;
+        }
+        body {
+            font-family: system-ui, -apple-system, sans-serif;
+            background: radial-gradient(circle at top right, #1e1b4b, #090d16);
+            color: var(--text);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .player-card {
+            background: var(--card-bg);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            padding: 30px 20px;
+            border-radius: 24px;
+            width: 100%;
+            max-width: 380px;
+            text-align: center;
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+        }
+        .logo-area {
+            width: 80px;
+            height: 80px;
+            background: linear-gradient(135deg, #06b6d4, #4f46e5);
+            border-radius: 50%;
+            margin: 0 auto 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 0 0 30px rgba(6, 182, 212, 0.4);
+        }
+        .logo-area svg { width: 35px; height: 35px; fill: white; }
+        .waves {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 4px;
+            height: 30px;
+            margin-bottom: 20px;
+            opacity: 0;
+            transition: opacity 0.3s;
+        }
+        .waves.playing { opacity: 1; }
+        .wave-bar {
+            width: 4px;
+            height: 8px;
+            background-color: var(--primary);
+            border-radius: 4px;
+            animation: bounce 0.8s ease-in-out infinite alternate;
+        }
+        .wave-bar:nth-child(2) { animation-delay: 0.2s; height: 14px; }
+        .wave-bar:nth-child(3) { animation-delay: 0.4s; height: 22px; }
+        .wave-bar:nth-child(4) { animation-delay: 0.1s; height: 12px; }
+        .wave-bar:nth-child(5) { animation-delay: 0.3s; height: 6px; }
+        @keyframes bounce { 0% { transform: scaleY(1); } 100% { transform: scaleY(2.5); } }
+        h1 { font-size: 1.4rem; font-weight: 700; margin: 0 0 6px 0; }
+        .subtitle { font-size: 0.8rem; color: var(--text-muted); margin-bottom: 25px; text-transform: uppercase; letter-spacing: 0.05em; }
+        select {
+            width: 100%;
+            padding: 14px;
+            font-size: 0.95rem;
+            background: rgba(15, 23, 42, 0.8);
+            color: white;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: 14px;
+            outline: none;
+            cursor: pointer;
+            margin-bottom: 20px;
+        }
+        audio { width: 100%; margin-top: 10px; }
+        .status-text { margin-top: 15px; font-size: 0.85rem; color: var(--text-muted); }
+        .status-text strong { color: white; }
+    </style>
+</head>
+<body>
+    <div class="player-card">
+        <div class="logo-area">
+            <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.53c-.26-.81-1-1.4-1.9-1.4h-1v-3c0-.55-.45-1-1-1h-6v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/></svg>
+        </div>
+        <div class="waves" id="audioWaves">
+            <div class="wave-bar"></div><div class="wave-bar"></div><div class="wave-bar"></div><div class="wave-bar"></div><div class="wave-bar"></div>
+        </div>
+        <h1>Radios del Maule</h1>
+        <div class="subtitle">Señal Digital en Vivo</div>
+        <select id="stationSelect" onchange="playRadio()">
+            <option value="" selected disabled>Selecciona una emisora...</option>
+            <option value="https://stream.zeno.fm/g6m3w6unvdeuv">📻 Radio Ancoa (Linares)</option>
+            <option value="https://stream.zeno.fm/0048m8v7gzhvv">📻 Radio RTL (Curicó)</option>
+            <option value="https://unored.tv:8120/stream">📻 Radio Tropical Latina (Curicó)</option>
+            <option value="https://icecast.bizarro.cl/carolina_curico">📻 Radio Carolina (Curicó)</option>
+            <option value="https://icecast.bizarro.cl/fmdos_talca">📻 FM Dos (Talca)</option>
+        </select>
+        <audio id="audioPlayer" controls></audio>
+        <div class="status-text" id="statusLabel">Elige una radio para comenzar</div>
+    </div>
+    <script>
+        const player = document.getElementById('audioPlayer');
+        const selector = document.getElementById('stationSelect');
+        const statusLabel = document.getElementById('statusLabel');
+        const waves = document.getElementById('audioWaves');
+        function playRadio() {
+            if (selector.value) {
+                statusLabel.innerHTML = "Conectando al stream...";
+                player.src = selector.value;
+                player.play()
+                    .then(() => {
+                        statusLabel.innerHTML = `Escuchando: <strong>${selector.options[selector.selectedIndex].text}</strong>`;
+                        waves.classList.add('playing');
+                    })
+                    .catch(() => {
+                        statusLabel.innerHTML = "Dale al botón de <strong>Play (▶)</strong>";
+                        waves.classList.remove('playing');
+                    });
+            }
+        }
+        player.onpause = () => waves.classList.remove('playing');
+        player.onplay = () => { if(player.src) waves.classList.add('playing'); };
+    </script>
+</body>
+</html>

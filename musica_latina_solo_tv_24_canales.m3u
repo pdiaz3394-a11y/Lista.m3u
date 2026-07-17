@@ -1,0 +1,87 @@
+#EXTM3U
+# Lista depurada: SOLO TELEVISIÓN MUSICAL LATINA
+# Países: Chile, Perú, Argentina, Colombia y México
+# Fecha de compilación: 2026-07-17
+# No incluye radios, FM, visual radio ni canales generales.
+# Se excluyeron Exa TV, La Mejor TV, La Kalle y otras señales ligadas a radio.
+# Los enlaces son transmisiones públicas recopiladas desde fuentes abiertas.
+# La disponibilidad puede cambiar porque los canales controlan sus servidores.
+
+# ===== CHILE =====
+#EXTINF:-1 tvg-id="13Festival.cl@SD" group-title="Chile | Música TV",13 Festival
+https://origin.dpsgo.com/ssai/event/Nftd0fM2SXasfDlRphvUsg/master.m3u8
+
+#EXTINF:-1 tvg-id="Portalfoxmix.cl@SD" group-title="Chile | Música TV",Portalfoxmix
+https://panel.tvstream.cl:1936/8040/8040/playlist.m3u8
+
+#EXTINF:-1 tvg-id="RetroPlus2.cl@SD" group-title="Chile | Música TV",Retro Plus 2
+#EXTVLCOPT:http-referrer=https://retroplustv.com/
+https://tls-cl.cdnz.cl/retroplustvuno/live/playlist.m3u8
+
+#EXTINF:-1 tvg-id="RetromusicaTelevision.cl@SD" group-title="Chile | Música TV",Retromúsica Televisión
+https://vdochile.com:3864/stream/play.m3u8
+
+#EXTINF:-1 tvg-id="RewindTV.cl@SD" group-title="Chile | Música TV",Rewind TV
+https://tls-cl.cdnz.cl/rewindtv/live/playlist.m3u8
+
+#EXTINF:-1 tvg-id="SaborTV.cl@SD" group-title="Chile | Música TV",Sabor TV
+https://v1.tustreaming.cl/sabortv/index.m3u8
+
+#EXTINF:-1 tvg-id="SoloBailalo.cl@SD" group-title="Chile | Música TV",SoloBáilalo
+https://5ff3d9babae13.streamlock.net/8000/8000/playlist.m3u8
+
+#EXTINF:-1 tvg-id="VClassicTV.cl@SD" group-title="Chile | Música TV",V Classic TV
+https://5eaccbab48461.streamlock.net:1936/8112/8112/playlist.m3u8
+
+# ===== PERÚ =====
+#EXTINF:-1 tvg-id="FolkloreTV.pe@SD" group-title="Perú | Música TV",Folklore TV
+https://play.folkloretv.pe/StreamSD/index.m3u8
+
+#EXTINF:-1 tvg-id="GalacticaTV.pe@SD" group-title="Perú | Música TV",Galáctica TV
+https://stream.neux.site/memfs/e3f59eec-6b93-45e1-a2ab-c82381c2a9ec.m3u8
+
+#EXTINF:-1 tvg-id="PrattelTV.pe@SD" group-title="Perú | Música TV",Prattel TV
+#EXTVLCOPT:http-referrer=https://www.pratteltv.lat
+https://183.bozztv.com/ssh101/ssh101/pratteltvperu/playlist.m3u8
+
+#EXTINF:-1 tvg-id="RumbaMixTV.pe@SD" group-title="Perú | Música TV",RumbaMix TV
+https://live-evg5.tv360.bitel.com.pe/bitel/mixtvSRT/playlist.m3u8
+
+#EXTINF:-1 tvg-id="TVPeruanisima.pe@SD" group-title="Perú | Música TV",TV Peruanísima
+https://k20.usastreams.com:8081/tvperuanisima/index.m3u8
+
+# ===== ARGENTINA =====
+#EXTINF:-1 tvg-id="ChamameTV.ar@SD" group-title="Argentina | Música TV",Chamamé TV
+https://srv4.zcast.com.br/chamametv/chamametv/playlist.m3u8
+
+#EXTINF:-1 tvg-id="CMElCanaldelaMusica.ar@SD" group-title="Argentina | Música TV",CM El Canal de la Música
+http://200.91.32.158:8080/cm/index.m3u8
+
+#EXTINF:-1 tvg-id="CumbiaMix.ar@HD" group-title="Argentina | Música TV",Cumbia Mix
+https://cloud.tvomix.com/CUMBIAMIX/index.m3u8
+
+#EXTINF:-1 tvg-id="MusicTop.ar@SD" group-title="Argentina | Música TV",MusicTop
+https://stream-gtlc.telecentro.net.ar/hls/musictophls/0/playlist.m3u8
+
+#EXTINF:-1 tvg-id="QuieroMusicaenmiIdioma.ar@SD" group-title="Argentina | Música TV",Quiero Música en mi Idioma
+http://177.234.249.178:8888/MTV/index.m3u8
+
+# ===== COLOMBIA =====
+#EXTINF:-1 tvg-id="FiestaTV.co@SD" group-title="Colombia | Música TV",Fiesta TV
+https://panelvideo1.intermediahost.co:3286/live/ruzfpkqklive.m3u8
+
+#EXTINF:-1 tvg-id="ParrandaVallenata.co@SD" group-title="Colombia | Música TV",Parranda Vallenata
+https://backupmaxmedia.hvmultiplay.com/hls/stream3/parrandavallenata.m3u8
+
+#EXTINF:-1 tvg-id="RumbaTV.co@SD" group-title="Colombia | Música TV",Rumba TV
+http://45.162.193.35/RUMBATV/index.m3u8
+
+#EXTINF:-1 tvg-id="SupermusicaTV.co@SD" group-title="Colombia | Música TV",Supermúsica TV
+https://backupmaxmedia.hvmultiplay.com/hls/stream4/supermusica.m3u8
+
+# ===== MÉXICO =====
+#EXTINF:-1 tvg-id="ConectaTV.mx@SD" group-title="México | Música TV",Conecta TV — Música regional mexicana
+https://stream8.mexiserver.com:19360/conectatvx/conectatvx.m3u8
+
+#EXTINF:-1 tvg-id="VisionTelevision.mx@SD" group-title="México | Música TV",Visión Televisión
+https://cloudvideo.servers10.com:8081/8016/index.m3u8

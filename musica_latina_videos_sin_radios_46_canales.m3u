@@ -1,0 +1,159 @@
+#EXTM3U
+# Lista amplia: TELEVISIÓN DE MÚSICA LATINA Y VIDEOCLIPS
+# Compilación: 2026-07-17
+# 46 señales de Chile, Perú, Argentina, Colombia, México y otros países latinos.
+# Sin emisoras identificadas como Radio, FM, AM ni visual-radio.
+# También se excluyeron canales de noticias y señales premium/de pago.
+# Algunas señales gratuitas no emiten 24/7 o pueden cambiar de servidor.
+
+# ===== CHILE =====
+#EXTINF:-1 tvg-id="13Festival.cl@SD" tvg-country="CL" group-title="Chile | Música TV",13 Festival (1080p)
+https://origin.dpsgo.com/ssai/event/Nftd0fM2SXasfDlRphvUsg/master.m3u8
+
+#EXTINF:-1 tvg-id="GenialTV.cl@SD" tvg-country="CL" group-title="Chile | Música TV",Genial TV (720p)
+https://v1.tustreaming.cl/genialtv/index.m3u8
+
+#EXTINF:-1 tvg-id="OrbitaChileTV.cl@HD" tvg-country="CL" group-title="Chile | Música TV",Orbita Chile TV (1080p)
+https://orbitachiletv.org/hls/0/stream.m3u8
+
+#EXTINF:-1 tvg-id="Portalfoxmix.cl@SD" tvg-country="CL" group-title="Chile | Música TV",Portalfoxmix
+https://panel.tvstream.cl:1936/8040/8040/playlist.m3u8
+
+#EXTINF:-1 tvg-id="RetroPlus2.cl@SD" tvg-country="CL" group-title="Chile | Música TV",Retro Plus 2 (720p)
+#EXTVLCOPT:http-referrer=https://retroplustv.com/
+https://tls-cl.cdnz.cl/retroplustvuno/live/playlist.m3u8
+
+#EXTINF:-1 tvg-id="RetromusicaTelevision.cl@SD" tvg-country="CL" group-title="Chile | Música TV",Retromusica Television (720p)
+https://vdochile.com:3864/stream/play.m3u8
+
+#EXTINF:-1 tvg-id="RewindTV.cl@SD" tvg-country="CL" group-title="Chile | Música TV",Rewind TV (1080p)
+https://tls-cl.cdnz.cl/rewindtv/live/playlist.m3u8
+
+#EXTINF:-1 tvg-id="SaborTV.cl@SD" tvg-country="CL" group-title="Chile | Música TV",Sabor TV (720p)
+https://v1.tustreaming.cl/sabortv/index.m3u8
+
+#EXTINF:-1 tvg-id="SoloBailalo.cl@SD" tvg-country="CL" group-title="Chile | Música TV",SoloBáilalo (480p)
+https://5ff3d9babae13.streamlock.net/8000/8000/playlist.m3u8
+
+#EXTINF:-1 tvg-id="VClassicTV.cl@SD" tvg-country="CL" group-title="Chile | Música TV",V Classic TV (720p)
+https://5eaccbab48461.streamlock.net:1936/8112/8112/playlist.m3u8
+
+# ===== PERÚ =====
+#EXTINF:-1 tvg-id="EstelarTV.pe@SD" tvg-country="PE" group-title="Perú | Música TV",Estelar TV (1080p)
+https://srt.tvdatta.com/tvestelar/index.m3u8
+
+#EXTINF:-1 tvg-id="FolkloreTV.pe@SD" tvg-country="PE" group-title="Perú | Música TV",Folklore TV (720p)
+https://play.folkloretv.pe/StreamSD/index.m3u8
+
+#EXTINF:-1 tvg-id="GalacticaTV.pe@SD" tvg-country="PE" group-title="Perú | Música TV",Galactica TV
+https://stream.neux.site/memfs/e3f59eec-6b93-45e1-a2ab-c82381c2a9ec.m3u8
+
+#EXTINF:-1 tvg-id="PrattelTV.pe@SD" tvg-country="PE" group-title="Perú | Música TV",Prattel TV (720p)
+#EXTVLCOPT:http-referrer=https://www.pratteltv.lat
+https://183.bozztv.com/ssh101/ssh101/pratteltvperu/playlist.m3u8
+
+#EXTINF:-1 tvg-id="RumbaMixTV.pe@SD" tvg-country="PE" group-title="Perú | Música TV",RumbaMix TV (720p)
+https://live-evg5.tv360.bitel.com.pe/bitel/mixtvSRT/playlist.m3u8
+
+#EXTINF:-1 tvg-id="TVPeruanisima.pe@SD" tvg-country="PE" group-title="Perú | Música TV",TV Peruanisima (720p)
+https://k20.usastreams.com:8081/tvperuanisima/index.m3u8
+
+#EXTINF:-1 tvg-id="TVUNO.pe@SD" tvg-country="PE" group-title="Perú | Música TV",TVUNO (720p)
+https://streamtv.onliv3.online:1936/karibtv/karibtv/playlist.m3u8
+
+# ===== ARGENTINA =====
+#EXTINF:-1 tvg-id="AlternaTV.ar@SD" tvg-country="AR" group-title="Argentina | Música TV",Alterna TV (720p) [Not 24/7]
+https://tv.alterna.ar/stream/hls/live.m3u8
+
+#EXTINF:-1 tvg-id="ChamameTV.ar@SD" tvg-country="AR" group-title="Argentina | Música TV",Chamame TV
+https://srv4.zcast.com.br/chamametv/chamametv/playlist.m3u8
+
+#EXTINF:-1 tvg-id="CMElCanaldelaMusica.ar@SD" tvg-country="AR" group-title="Argentina | Música TV",CM El Canal de la Musica (720p)
+http://200.91.32.158:8080/cm/index.m3u8
+
+#EXTINF:-1 tvg-id="CumbiaMix.ar@HD" tvg-country="AR" group-title="Argentina | Música TV",Cumbia Mix (720p)
+https://cloud.tvomix.com/CUMBIAMIX/index.m3u8
+
+#EXTINF:-1 tvg-id="MusicTop.ar@SD" tvg-country="AR" group-title="Argentina | Música TV",MusicTop (1080p)
+https://stream-gtlc.telecentro.net.ar/hls/musictophls/0/playlist.m3u8
+
+#EXTINF:-1 tvg-id="XLevelMedia.ar@SD" tvg-country="AR" group-title="Argentina | Música TV",X Level Media (1080p)
+https://tuvideoonline.com.ar:3332/live/xlevelmedialive.m3u8
+
+# ===== COLOMBIA =====
+#EXTINF:-1 tvg-id="FiestaTV.co@SD" tvg-country="CO" group-title="Colombia | Música TV",Fiesta TV
+https://panelvideo1.intermediahost.co:3286/live/ruzfpkqklive.m3u8
+
+#EXTINF:-1 tvg-id="LaHermandadSalsera.co@SD" tvg-country="CO" group-title="Colombia | Música TV",La Hermandad Salsera (1080p) [Not 24/7]
+https://streamlov.alsolnet.com/hermandadsalsera/live/playlist.m3u8
+
+#EXTINF:-1 tvg-id="ParrandaVallenata.co@SD" tvg-country="CO" group-title="Colombia | Música TV",Parranda Vallenata (720p)
+https://backupmaxmedia.hvmultiplay.com/hls/stream3/parrandavallenata.m3u8
+
+#EXTINF:-1 tvg-id="RumbaTV.co@SD" tvg-country="CO" group-title="Colombia | Música TV",Rumba TV (1080p)
+http://45.162.193.35/RUMBATV/index.m3u8
+
+#EXTINF:-1 tvg-id="SalsaGordaTelevision.co@SD" tvg-country="CO" group-title="Colombia | Música TV",Salsa Gorda Television (1080p) [Not 24/7]
+https://live20.bozztv.com/akamaissh101/ssh101/qMUAZEy/playlist.m3u8
+
+#EXTINF:-1 tvg-id="SupermusicaTV.co@SD" tvg-country="CO" group-title="Colombia | Música TV",Supermúsica TV (720p)
+https://backupmaxmedia.hvmultiplay.com/hls/stream4/supermusica.m3u8
+
+# ===== MÉXICO =====
+#EXTINF:-1 tvg-id="ConectaTV.mx@SD" tvg-country="MX" group-title="México | Música TV",Conecta TV (720p)
+https://stream8.mexiserver.com:19360/conectatvx/conectatvx.m3u8
+
+#EXTINF:-1 tvg-id="VisionTelevision.mx@SD" tvg-country="MX" group-title="México | Música TV",Visión Televisión (720p)
+https://cloudvideo.servers10.com:8081/8016/index.m3u8
+
+# ===== ARGENTINA =====
+#EXTINF:-1 tvg-id="TVEstacionMix.ar@SD" group-title="Argentina | Música TV",TV Estación Mix (720p)
+https://streamingtv.masplay.x10.mx/proxy/mixtv/playlist.m3u8
+
+# ===== COSTA RICA =====
+#EXTINF:-1 tvg-id="UrbanoTV.cr@SD" group-title="Costa Rica | Música TV",Urbano TV (720p)
+https://59ef525c24caa.streamlock.net/tvurbano/tvurbano/playlist.m3u8
+
+# ===== PANAMÁ =====
+#EXTINF:-1 tvg-id="Mas23TV.pa@SD" group-title="Panamá | Música TV",Más 23 TV (1080p)
+https://vcp4.myplaytv.com:1936/mas23/mas23/playlist.m3u8
+
+#EXTINF:-1 tvg-id="TropicalMoonCumbiaTV.pa@SD" group-title="Panamá | Música TV",Tropical Moon Cumbia TV (720p)
+https://srv2.tropicalmoonmedia.com/cumbiatv/cumbiatv/playlist.m3u8
+
+#EXTINF:-1 tvg-id="TropicalMoonSalsaTV.pa@SD" group-title="Panamá | Música TV",Tropical Moon Salsa TV (720p)
+https://srv.tropicalmoonmedia.com/musictv/musictv/playlist.m3u8
+
+#EXTINF:-1 tvg-id="TropicalMoonUrbanTV.pa@SD" group-title="Panamá | Música TV",Tropical Moon Urban TV (720p)
+https://srv.tropicalmoonmedia.com/urbantvnetott/urbantvnetott/playlist.m3u8
+
+# ===== REPÚBLICA DOMINICANA =====
+#EXTINF:-1 tvg-id="MakaoTV.do@SD" group-title="República Dominicana | Música TV",Makao TV (360p)
+https://live.obslivestream.com/makaomux/tracks-v2a1/playlist.m3u8
+
+#EXTINF:-1 tvg-id="Mun2TV.do@SD" group-title="República Dominicana | Música TV",Mun2TV (720p)
+https://vdo2.streamgato.us:3144/live/mund2tvlive.m3u8
+
+#EXTINF:-1 tvg-id="TuMusicaHD.do@SD" group-title="República Dominicana | Música TV",Tu Música HD (1080p) [No 24/7]
+https://edge.essastream.com/tumusicahd/tracks-v1a1/mono.m3u8
+
+# ===== NICARAGUA =====
+#EXTINF:-1 tvg-id="MegaBox.ni@SD" group-title="Nicaragua | Música TV",MegaBox (720p) [No 24/7]
+https://hdbox.chunklistv.com/live?stream=megabox
+
+#EXTINF:-1 tvg-id="LaRock22.ni@SD" group-title="Nicaragua | Música TV",La Rock 22 (1080p)
+https://cootv.cootel.com.ni:8095/Canal22_CooTel/playlist.m3u8
+
+# ===== PARAGUAY =====
+#EXTINF:-1 tvg-id="FarraPlay.py@SD" group-title="Paraguay | Música TV",Farra Play (720p) [No 24/7]
+http://159.203.148.226/live/farra.m3u8
+
+# ===== LATINOS INTERNACIONALES =====
+#EXTINF:-1 tvg-id="LatinZone.us@SD" group-title="Latinos internacionales | Música TV",Latin Zone TV (720p) — Música urbana latina
+https://cdn.streamingcpanel.com:3784/live/latinzonetvlive.m3u8
+
+#EXTINF:-1 tvg-id="TropicalMusicTV.us@SD" group-title="Latinos internacionales | Música TV",Tropical Music TV (720p) — Vallenato y tropical
+https://59a564764e2b6.streamlock.net/vallenato/tropical/playlist.m3u8
+
+#EXTINF:-1 tvg-id="TVOMIX.es@HD" group-title="Latinos internacionales | Música TV",TVOMIX (1080p) — Videoclips y mezclas
+https://cloud.tvomix.com/TVOMIX/index.m3u8

@@ -1,0 +1,172 @@
+#EXTM3U
+# Lista: Música Latina TV — Chile, Perú, Argentina, Colombia y México
+# Generada: 2026-07-17
+# 53 señales de video clasificadas como música.
+# Se excluyeron los canales cuyo nombre identifica explícitamente una radio o señal FM.
+# Fuente de referencias: IPTV-org. Las transmisiones pueden cambiar o dejar de estar disponibles.
+
+# ===== CHILE =====
+#EXTINF:-1 tvg-id="13Festival.cl@SD" tvg-country="CL" group-title="Chile",13 Festival (1080p)
+https://origin.dpsgo.com/ssai/event/Nftd0fM2SXasfDlRphvUsg/master.m3u8
+
+#EXTINF:-1 tvg-id="ApocalipsisTVD.cl@SD" tvg-country="CL" group-title="Chile",Apocalipsis TVD (720p)
+https://us.streaminghd.cl/apocalipsistvd/video.m3u8
+
+#EXTINF:-1 tvg-id="GenialTV.cl@SD" tvg-country="CL" group-title="Chile",Genial TV (720p)
+https://v1.tustreaming.cl/genialtv/index.m3u8
+
+#EXTINF:-1 tvg-id="LaClave.cl@SD" tvg-country="CL" group-title="Chile",La Clave (720p)
+https://unlimited1-cl-isp.dps.live/laclavetv/laclavetv.smil/playlist.m3u8
+
+#EXTINF:-1 tvg-id="LaGranjaTV.cl@SD" tvg-country="CL" group-title="Chile",La Granja TV
+https://oracle.streaminghd.cl/8126/8126/playlist.m3u8
+
+#EXTINF:-1 tvg-id="MaquiTV.cl@SD" tvg-country="CL" group-title="Chile",Maqui TV
+https://streamyes.alsolnet.com/maquiradio/live/playlist.m3u8
+
+#EXTINF:-1 tvg-id="OrbitaChileTV.cl@HD" tvg-country="CL" group-title="Chile",Orbita Chile TV (1080p)
+https://orbitachiletv.org/hls/0/stream.m3u8
+
+#EXTINF:-1 tvg-id="Pauta.cl@SD" tvg-country="CL" group-title="Chile",Pauta (1080p)
+https://redirector.rudo.video/hls-video/ey6283je82983je9823je8jowowiekldk9838274/pautatv/pautatv.smil/playlist.m3u8
+
+#EXTINF:-1 tvg-id="Portalfoxmix.cl@SD" tvg-country="CL" group-title="Chile",Portalfoxmix
+https://panel.tvstream.cl:1936/8040/8040/playlist.m3u8
+
+#EXTINF:-1 tvg-id="PRIDEtvLATAM.cl@HD" tvg-country="CL" group-title="Chile",PRIDEtv LATAM (1080p)
+https://backend.energeek.cl/webtv/pridetvweb/index.m3u8?token=ZZDemoIPTVGH
+
+#EXTINF:-1 tvg-id="RetroPlus2.cl@SD" tvg-country="CL" group-title="Chile",Retro Plus 2 (720p)
+#EXTVLCOPT:http-referrer=https://retroplustv.com/
+https://tls-cl.cdnz.cl/retroplustvuno/live/playlist.m3u8
+
+#EXTINF:-1 tvg-id="RetromusicaTelevision.cl@SD" tvg-country="CL" group-title="Chile",Retromusica Television (720p)
+https://vdochile.com:3864/stream/play.m3u8
+
+#EXTINF:-1 tvg-id="RewindTV.cl@SD" tvg-country="CL" group-title="Chile",Rewind TV (1080p)
+https://tls-cl.cdnz.cl/rewindtv/live/playlist.m3u8
+
+#EXTINF:-1 tvg-id="RitoqueTV.cl@SD" tvg-country="CL" group-title="Chile",Ritoque TV (720p)
+https://streaming.purum.cl/ritoquetv/index.m3u8
+
+#EXTINF:-1 tvg-id="SaborTV.cl@SD" tvg-country="CL" group-title="Chile",Sabor TV (720p)
+https://v1.tustreaming.cl/sabortv/index.m3u8
+
+#EXTINF:-1 tvg-id="SensacionCosta.cl@SD" tvg-country="CL" group-title="Chile",Sensacion Costa
+https://tvcosta.gleeze.com/memfs/4d48db09-0b1e-4803-8da7-22be388bdd7e.m3u8
+
+#EXTINF:-1 tvg-id="SoloBailalo.cl@SD" tvg-country="CL" group-title="Chile",SoloBáilalo (480p)
+https://5ff3d9babae13.streamlock.net/8000/8000/playlist.m3u8
+
+#EXTINF:-1 tvg-id="UMAGTV2.cl@SD" tvg-country="CL" group-title="Chile",UMAGTV2
+https://tls-cl.cdnz.cl/umag2/live/playlist.m3u8
+
+#EXTINF:-1 tvg-id="VClassicTV.cl@SD" tvg-country="CL" group-title="Chile",V Classic TV (720p)
+https://5eaccbab48461.streamlock.net:1936/8112/8112/playlist.m3u8
+
+# ===== PERÚ =====
+#EXTINF:-1 tvg-id="AndinaRTV.pe@SD" tvg-country="PE" group-title="Perú",Andina RTV (720p)
+https://live-evg8.tv360.bitel.com.pe/bitel/andinatvSRT/playlist.m3u8
+
+#EXTINF:-1 tvg-id="EstelarTV.pe@SD" tvg-country="PE" group-title="Perú",Estelar TV (1080p)
+https://srt.tvdatta.com/tvestelar/index.m3u8
+
+#EXTINF:-1 tvg-id="FolkloreTV.pe@SD" tvg-country="PE" group-title="Perú",Folklore TV (720p)
+https://play.folkloretv.pe/StreamSD/index.m3u8
+
+#EXTINF:-1 tvg-id="GalacticaTV.pe@SD" tvg-country="PE" group-title="Perú",Galactica TV
+https://stream.neux.site/memfs/e3f59eec-6b93-45e1-a2ab-c82381c2a9ec.m3u8
+
+#EXTINF:-1 tvg-id="Karibena.pe@SD" tvg-country="PE" group-title="Perú",Karibena (720p)
+http://187.102.210.46/KARIBENA/index.m3u8
+
+#EXTINF:-1 tvg-id="LaFabulosaTV.pe@SD" tvg-country="PE" group-title="Perú",La Fabulosa Radio y TV (720p)
+https://eu1.servers10.com:8081/8004/index.m3u8
+
+#EXTINF:-1 tvg-id="MetropolitanadelCuzco.pe@SD" tvg-country="PE" group-title="Perú",Metropolitana del Cuzco
+https://video1.earthcam.com/myearthcam/075ff02f78c35af55564cf3af3b3f750.flv/playlist.m3u8
+
+#EXTINF:-1 tvg-id="MielTV.pe@SD" tvg-country="PE" group-title="Perú",Miel TV (720p) [Not 24/7]
+https://7.innovatestream.pe:19360/mieltv/mieltv.m3u8
+
+#EXTINF:-1 tvg-id="PrattelTV.pe@SD" tvg-country="PE" group-title="Perú",Prattel TV (720p)
+#EXTVLCOPT:http-referrer=https://www.pratteltv.lat
+https://183.bozztv.com/ssh101/ssh101/pratteltvperu/playlist.m3u8
+
+#EXTINF:-1 tvg-id="RumbaMixTV.pe@SD" tvg-country="PE" group-title="Perú",RumbaMix TV (720p)
+https://live-evg5.tv360.bitel.com.pe/bitel/mixtvSRT/playlist.m3u8
+
+#EXTINF:-1 tvg-id="TVPeruanisima.pe@SD" tvg-country="PE" group-title="Perú",TV Peruanisima (720p)
+https://k20.usastreams.com:8081/tvperuanisima/index.m3u8
+
+#EXTINF:-1 tvg-id="TVUNO.pe@SD" tvg-country="PE" group-title="Perú",TVUNO (720p)
+https://streamtv.onliv3.online:1936/karibtv/karibtv/playlist.m3u8
+
+# ===== ARGENTINA =====
+#EXTINF:-1 tvg-id="AlternaTV.ar@SD" tvg-country="AR" group-title="Argentina",Alterna TV (720p) [Not 24/7]
+https://tv.alterna.ar/stream/hls/live.m3u8
+
+#EXTINF:-1 tvg-id="ChamameTV.ar@SD" tvg-country="AR" group-title="Argentina",Chamame TV
+https://srv4.zcast.com.br/chamametv/chamametv/playlist.m3u8
+
+#EXTINF:-1 tvg-id="CMElCanaldelaMusica.ar@SD" tvg-country="AR" group-title="Argentina",CM El Canal de la Musica (720p)
+http://200.91.32.158:8080/cm/index.m3u8
+
+#EXTINF:-1 tvg-id="CumbiaMix.ar@HD" tvg-country="AR" group-title="Argentina",Cumbia Mix (720p)
+https://cloud.tvomix.com/CUMBIAMIX/index.m3u8
+
+#EXTINF:-1 tvg-id="MusicTop.ar@SD" tvg-country="AR" group-title="Argentina",MusicTop (1080p)
+https://stream-gtlc.telecentro.net.ar/hls/musictophls/0/playlist.m3u8
+
+#EXTINF:-1 tvg-id="QuieroMusicaenmiIdioma.ar@SD" tvg-country="AR" group-title="Argentina",Quiero Musica en mi Idioma (1080p)
+http://177.234.249.178:8888/MTV/index.m3u8
+
+#EXTINF:-1 tvg-id="XLevelMedia.ar@SD" tvg-country="AR" group-title="Argentina",X Level Media (1080p)
+https://tuvideoonline.com.ar:3332/live/xlevelmedialive.m3u8
+
+# ===== COLOMBIA =====
+#EXTINF:-1 tvg-id="FiestaTV.co@SD" tvg-country="CO" group-title="Colombia",Fiesta TV
+https://panelvideo1.intermediahost.co:3286/live/ruzfpkqklive.m3u8
+
+#EXTINF:-1 tvg-id="LaHermandadSalsera.co@SD" tvg-country="CO" group-title="Colombia",La Hermandad Salsera (1080p) [Not 24/7]
+https://streamlov.alsolnet.com/hermandadsalsera/live/playlist.m3u8
+
+#EXTINF:-1 tvg-id="LaKalle.co@SD" tvg-country="CO" group-title="Colombia",La Kalle (720p)
+https://mdstrm.com/live-stream-playlist/58d191f07290fbb058025843.m3u8
+
+#EXTINF:-1 tvg-id="OndambientalTV.co@SD" tvg-country="CO" group-title="Colombia",Ondambiental TV (360p)
+https://stmv4.voxtvhd.com.br/ondastereo/ondastereo/playlist.m3u8
+
+#EXTINF:-1 tvg-id="ParrandaVallenata.co@SD" tvg-country="CO" group-title="Colombia",Parranda Vallenata (720p)
+https://backupmaxmedia.hvmultiplay.com/hls/stream3/parrandavallenata.m3u8
+
+#EXTINF:-1 tvg-id="Reyali.co@SD" tvg-country="CO" group-title="Colombia",Reyali (614p)
+https://eu1.servers10.com:8081/8090/index.m3u8
+
+#EXTINF:-1 tvg-id="RumbaTV.co@SD" tvg-country="CO" group-title="Colombia",Rumba TV (1080p)
+http://45.162.193.35/RUMBATV/index.m3u8
+
+#EXTINF:-1 tvg-id="SalsaGordaTelevision.co@SD" tvg-country="CO" group-title="Colombia",Salsa Gorda Television (1080p) [Not 24/7]
+https://live20.bozztv.com/akamaissh101/ssh101/qMUAZEy/playlist.m3u8
+
+#EXTINF:-1 tvg-id="SupermusicaTV.co@SD" tvg-country="CO" group-title="Colombia",Supermúsica TV (720p)
+https://backupmaxmedia.hvmultiplay.com/hls/stream4/supermusica.m3u8
+
+# ===== MÉXICO =====
+#EXTINF:-1 tvg-id="ConectaTV.mx@SD" tvg-country="MX" group-title="México",Conecta TV (720p)
+https://stream8.mexiserver.com:19360/conectatvx/conectatvx.m3u8
+
+#EXTINF:-1 tvg-id="ExaTV.mx@SD" tvg-country="MX" group-title="México",Exa TV (576p)
+http://45.189.62.33:8002/play/a0lr/index.m3u8
+
+#EXTINF:-1 tvg-id="LaMejorTV.mx@SD" tvg-country="MX" group-title="México",La Mejor TV (576p)
+http://45.189.62.33:8002/play/a0ls/index.m3u8
+
+#EXTINF:-1 tvg-id="LoboTV.mx@SD" tvg-country="MX" group-title="México",Lobo TV (720p)
+https://5ca3e84a76d30.streamlock.net/tvlobo/videotvlobo/playlist.m3u8
+
+#EXTINF:-1 tvg-id="TelehitMusica.mx@SD" tvg-country="MX" group-title="México",Telehit Musica
+http://190.61.55.34:2401/play/a06t/index.m3u8
+
+#EXTINF:-1 tvg-id="VisionTelevision.mx@SD" tvg-country="MX" group-title="México",Visión Televisión (720p)
+https://cloudvideo.servers10.com:8081/8016/index.m3u8

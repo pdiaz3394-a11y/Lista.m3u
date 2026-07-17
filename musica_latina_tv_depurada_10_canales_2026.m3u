@@ -1,0 +1,42 @@
+#EXTM3U
+# Lista depurada: SOLO canales de televisión musical con video
+# Países: Chile, Perú, Argentina y Colombia
+# Revisión: 2026-07-17
+# No incluye radios, FM, visual radios ni señales marcadas como 'Radio y TV'.
+# Se priorizaron enlaces públicos agregados o confirmados recientemente.
+# Aviso: ningún enlace IPTV gratuito puede garantizar funcionamiento permanente.
+
+# ===== CHILE =====
+#EXTINF:-1 tvg-id="RetroPlus2.cl@SD" group-title="Chile | Música TV",Retro Plus 2 — Videoclips retro
+#EXTVLCOPT:http-referrer=https://retroplustv.com/
+https://tls-cl.cdnz.cl/retroplustvuno/live/playlist.m3u8
+
+#EXTINF:-1 tvg-id="RewindTV.cl@SD" group-title="Chile | Música TV",Rewind TV — Música y videoclips
+https://tls-cl.cdnz.cl/rewindtv/live/playlist.m3u8
+
+#EXTINF:-1 tvg-id="VClassicTV.cl" group-title="Chile | Música TV",V Classic TV — Clásicos y pop
+https://5eaccbab48461.streamlock.net:1936/8112/8112/playlist.m3u8
+
+# ===== PERÚ =====
+#EXTINF:-1 tvg-id="TVPeruanisima.pe@SD" group-title="Perú | Música TV",TV Peruanísima — Música peruana
+https://k20.usastreams.com:8081/tvperuanisima/index.m3u8
+
+#EXTINF:-1 tvg-id="PrattelTV.pe@SD" group-title="Perú | Música TV",Prattel TV — Música latina
+https://vs20.live.opencaster.com/prattelpe_a2b8d350/index.m3u8
+
+#EXTINF:-1 tvg-id="FolkloreTV.pe@SD" group-title="Perú | Música TV",Folklore TV — Música y folclore peruano
+https://play.folkloretv.pe/StreamSD/index.m3u8
+
+# ===== ARGENTINA =====
+#EXTINF:-1 tvg-id="MusicTop.ar@SD" group-title="Argentina | Música TV",MusicTop — Videoclips y éxitos
+https://stream-gtlc.telecentro.net.ar/hls/musictophls/0/playlist.m3u8
+
+#EXTINF:-1 tvg-id="CumbiaMix.ar@HD" group-title="Argentina | Música TV",Cumbia Mix — Cumbia
+https://cloud.tvomix.com/CUMBIAMIX/index.m3u8
+
+#EXTINF:-1 tvg-id="ChamameTV.ar@SD" group-title="Argentina | Música TV",Chamamé TV — Chamamé y folclore
+https://srv4.zcast.com.br/chamametv/chamametv/playlist.m3u8
+
+# ===== COLOMBIA =====
+#EXTINF:-1 tvg-id="RumbaTV.co@SD" group-title="Colombia | Música TV",Rumba TV — Música tropical y latina
+http://186.148.196.100:8000/play/a02h
